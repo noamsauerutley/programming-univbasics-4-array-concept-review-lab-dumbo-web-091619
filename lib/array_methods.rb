@@ -10,6 +10,7 @@ def find_max_value(array)
     if num >= max
       max = num
     end
+  end
   return max
 end
 
@@ -20,5 +21,6 @@ array.each do |num|
   if num < min
     min = num
   end
+end
   return min
 end
