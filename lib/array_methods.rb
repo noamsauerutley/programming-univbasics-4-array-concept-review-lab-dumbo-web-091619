@@ -5,7 +5,7 @@ end
 
 def find_max_value(array)
   # Add your solution here
-  let max = 0
+  max = 0
   array.each do |num|
     if num >= max
       max = num
@@ -16,5 +16,5 @@ end
 
 def find_min_value(array)
   # Add your solution here
-  
+
 end
